@@ -1,6 +1,8 @@
 import { Context, SettingModel } from 'hydrooj';
 
 export async function apply(ctx: Context) {
+	ctx.injectUI('Nav', 'docs_homepage', {url: '/homepage', before: 'problem'});
+
 	ctx.effect(() => {
 		const setting = SettingModel.SETTINGS_BY_KEY.qq;
 		if (!setting) return () => {};
