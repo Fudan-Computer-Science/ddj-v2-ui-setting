@@ -3,10 +3,10 @@ import { $, NamedPage, addPage } from '@hydrooj/ui-default';
 // 1 ~ 10 級台灣競程風格難度對照表
 const DIFFICULTY_MAP = {
     1: { text: '語法新手', color: 'rgb(254, 76, 97)' },      // 洛谷紅
-    2: { text: 'APCS 觀念3級分', color: 'rgb(243, 156, 17)' }, // 洛谷橙
-    3: { text: 'APCS 實作3級分', color: 'rgb(255, 193, 22)' },     // 洛谷黃
-    4: { text: 'APCS 實作4級分', color: 'rgb(82, 196, 26)' },      // 洛谷綠
-    5: { text: 'APCS 實作5級分', color: 'rgb(52, 152, 219)' },      // 洛谷藍
+    2: { text: '觀念3級', color: 'rgb(243, 156, 17)' }, // 洛谷橙
+    3: { text: '實作3級', color: 'rgb(255, 193, 22)' },     // 洛谷黃
+    4: { text: '實作4級', color: 'rgb(82, 196, 26)' },      // 洛谷綠
+    5: { text: '實作5級', color: 'rgb(52, 152, 219)' },      // 洛谷藍
     6: { text: '能競區賽', color: 'rgb(157, 61, 207)' },     // 洛谷紫
     7: { text: '能競全國賽', color: 'rgb(14, 29, 105)' },      // 洛谷黑/深藍
     8: { text: 'TOI 破台', color: 'rgb(100, 20, 140)' },     // 深紫
